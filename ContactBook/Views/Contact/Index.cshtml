@@ -1,0 +1,48 @@
+﻿@model List<Contact>
+
+@Html.ActionLink("Create Contact", "Create")
+
+<h2>All Contacts</h2>
+
+<ul>
+    @foreach(var contact in Model)
+    {
+        <li>@contact.ToString()</li>
+    }
+</ul>
+
+
+<h3>Finding contacts</h3>
+
+    <p>
+        <label>Name:</label><br />
+        <input type="text" name="name" id="nameField" />
+    </p>
+
+<p>Phone Number: <pre id="result"> </pre></p>
+
+<script>
+    var nameField = document.getElementById("nameField");
+
+    nameField.addEventListener('input', async function () {
+        var url = "contact/findByName?name=" + nameField.value;
+        console.log(url);
+
+
+        const response = await fetch(url);
+        const res = await response.json();
+
+        console.log(res);
+
+        var resultField = document.getElementById("result");
+        if (res != null) {
+            resultField.innerHTML = res.phoneNumber;
+        }
+        else {
+            resultField.innerHTML = "Not founded";
+        }
+    });
+
+
+
+</script>

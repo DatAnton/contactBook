@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{89C357C9-086D-4E1D-A49B-C74123450AE0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContactBook/Views/Contact/Create.cshtml">
+    <Files>
+      <File FileName="ContactBook/Startup.cs" Line="58" Column="65" />
+      <File FileName="ContactBook/Models/ContactContext.cs" />
+      <File FileName="ContactBook/Models/Contact.cs" />
+      <File FileName="ContactBook/appsettings.json" />
+      <File FileName="ContactBook/Program.cs" />
+      <File FileName="ContactBook/Controllers/ContactController.cs" />
+      <File FileName="ContactBook/Views/Contact/Create.cshtml" Line="8" Column="29" />
+      <File FileName="ContactBook/Views/Contact/Index.cshtml" />
+      <File FileName="ContactBook/Controllers/HomeController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContactBook" expanded="True">
+            <Node name="ContactBook" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Contact" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ContactBook PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
