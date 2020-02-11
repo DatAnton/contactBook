@@ -20,7 +20,6 @@ namespace ContactBook
             using(var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-
                 try
                 {
                     var context = services.GetRequiredService<ContactContext>();
@@ -32,9 +31,6 @@ namespace ContactBook
                 }
             }
             host.Run();
-
-
-            //CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
